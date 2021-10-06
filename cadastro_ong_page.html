@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONA+E - Sou uma ONG</title>
+    <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="cadastroOngBody">
+    <header id="header">
+        <nav id="menu-h">
+          <ul>
+            <li><a class="active" href="initial_page.html"><i class="fa fa-home"></i></a></li>
+            <li><input type="search" id="pesquisa"></li>
+            <li><a href="initial_page.html">Sou uma ONG</a></li>
+            <li><a href="cadastro_user_page.html">Quero ser voluntário</a></li>
+            <li><a href="search_page.html">Doe Já</a></li>
+            <li><a href="login-page.html">Login</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="form-container-ong">
+        <fieldset>
+            <legend><b>Informações Gerais</b></legend>
+            <form action="GET">
+              <br>
+              <div class="inputbox">
+                <input type="text" name="nome-ong" id="nome-ong" class="input-ong" required>
+                <label class="label-input" for="nome-ong">Nome da ONG</label>
+              </div>
+              <br><br>
+              <div class="inputbox">
+                <input type="text" name="resumo-ong" id="resumo-ong" class="input-ong" required>
+                <label class="label-input" for="resumo-ong">Escreva um breve resumo</label>
+              </div>
+              <br><br>
+              <div class="inputbox">
+                <input type="text" name="endereco-ong" id="endereco-ong" class="input-ong" required>
+                <label class="label-input" for="endereco-ong">Endereço</label>
+              </div>
+              <br><br>
+              <div class="inputbox-image">
+                <label class="label-input-image" for="logo-ong">Carregue uma logo</label>
+                <input type="image" name="logo-ong" id="logo-ong" class="input-ong-image" required>
+              </div>
+              <br><br>
+              <div class="inputbox">
+                <input type="text" name="causas-ong" id="causas-ong" class="input-ong" required>
+                <label class="label-input" for="nome-ong">Causa apoiadora</label>
+              </div>
+              <br><br>
+              <div class="inputbox">
+                <input type="number" name="benefic-ong" id="benefic-ong" class="input-ong" required>
+                <label class="label-input" for="benefic-ong">Nº de beneficiados</label>
+              </div>
+              <br><br>
+              <div class="inputbox">
+                <input type="text" name="CNPJ-ong" id="CNPJ-ong" class="input-ong" required>
+                <label class="label-input" for="CNPP-ong">CNPJ - opcional</label>
+              </div>
+              <br><br>
+            </form>
+            <br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend><b>Contato</b></legend>
+            <form action="GET">
+              <br>
+              <div class="inputbox">
+                <input type="text" name="telefone-ong" id="telefone-ong" class="input-ong"required>
+                <label class="label-input" for="telefone-ong-ong">Telefone</label>
+              </div>
+              <br><br>
+              <div class="inputbox">
+                <input type="text" name="email-ong" id="email-ong" class="input-ong" required>
+                <label class="label-input" for="capa-ong">E-mail</label>
+              </div>
+              <br><br>
+              <div class="inputbox">
+                <input type="text" name="facebook-ong" id="facebook-ong" class="input-ong" required>
+                <label class="label-input" for="facebook-ong">Facebook</label>
+              </div>
+              <br><br>
+              <div class="inputbox">
+                <input type="text" name="instagram-ong" id="instagram-ong" class="input-ong" required>
+                <label class="label-input" for="instagram-ong">Instagram</label>
+              </div>
+              <br>
+            </form>
+        </fieldset>
+        <BR><BR>
+        <fieldset>
+          <legend><b>Descrição</b></legend>
+          <form action="GET">
+            <br>
+              <div class="inputbox">
+                <label class="label-input-descricao" for="descricao-ong">Descreva a ONG</label>
+                <br>
+                <input type="text" name="descricao-ong" id="descricao-ong" class="input-ong-descricao" required>
+              </div>
+              <br><br>
+          </form>
+        </fieldset>
+        <br><br>
+        <div class="inputbox">
+          <input type="button" id="btn-confirmar" value="Confirmar" onclick="window.location='ong-page-ong-user.html';">
+      </div>
+      </div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+      <div class="footer-borderline">
+        <footer>
+          <div class="footer-content">
+            <h3>DONA+E</h3>
+            <p>Nos diga nas redes sociais!</p>
+            <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-github"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+            <div class="footer-bottom">
+              <p>copyright &copy;2021 DONA+E. Design by <span>Group7</span></p>
+            </div>
+          </div>
+        </footer>
+      </div>
+</body>
+</html>

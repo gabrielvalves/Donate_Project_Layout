@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONA+E - Cadastro de Usuário</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="cadastroUserBody">
+    <header id="header">
+        <nav id="menu-h">
+            <ul>
+                <li><a class="active" href="initial_page.html"><i class="fa fa-home"></i></a></li>
+                <li><input type="search" id="pesquisa"></li>
+                <li><a href="initial_page.html">Sou uma ONG</a></li>
+                <li><a href="cadastro_user_page.html">Quero ser voluntário</a></li>
+                <li><a href="search_page.html">Doe Já</a></li>
+                <li><a href="login-page.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br>
+    <div class="form-container">
+        <fieldset>
+            <legend><b>Cadastro de usuário</b></legend>
+            <form action="GET">
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" name="nome-user" id="nome-user" class="input-user" required>
+                    <label class="label-input" for="nome-user">Nome completo</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" name="email-user" id="email-user" class="input-user" required>
+                    <label class="label-input" for="email-user">E-mail</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="password" name="senha-user" id="senha-user" class="input-user" required>
+                    <label class="label-input" for="senha-user">Senha</label>
+                </div>
+                <br><br>
+                    <label for="nasc-user"><b>Data de nascimento:</b></label>
+                    <input type="date" name="nasc-user" id="nasc-user" required>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" name="endereco-user" id="endereco-user" class="input-user" required>
+                    <label class="label-input" for="endereco-user">Endereço</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="submit" id="btn-confirmar" value="Confirmar" onclick="window.location='initial_page.html';">
+                </div>
+            </form>
+        </fieldset>
+    </div>
+    <br><br><br><br><br><br><br>
+    <footer>
+        <div class="footer-content">
+            <h3>DONA+E</h3>
+            <p>Nos diga nas redes sociais!</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+            <div class="footer-bottom">
+                <p>copyright &copy;2021 DONA+E. Design by <span>Group7</span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
